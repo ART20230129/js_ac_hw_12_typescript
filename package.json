@@ -1,0 +1,42 @@
+{
+  "name": "js_ac_hw_12_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ART20230129/js_ac_hw_12_typescript.git"
+  },
+  "author": "Art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ART20230129/js_ac_hw_12_typescript/issues"
+  },
+  "homepage": "https://github.com/ART20230129/js_ac_hw_12_typescript#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@types/jest": "^29.5.12",
+    "babel-jest": "^29.7.0",
+    "core-js": "^3.37.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
