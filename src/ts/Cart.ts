@@ -12,14 +12,14 @@ export default class Cart {
         } 
 
         getTotalSumm(): number { //Функция, считающую суммарную стоимость (без учёта скидки)
-                let totalSumm: number = 0;
+                /* let totalSumm: number = 0;
                 this._items.forEach((item) => {
                         totalSumm += item.price;                        
                 })
-                return totalSumm
+                return totalSumm */
 
                 // Вариант
-                //return this._items.reduce((sum: number, item: Buyable) => sum + item.price, 0)
+                return this._items.reduce((sum: number, item: Buyable) => sum + item.price, 0)
         }
 
         //Функция, считающаю суммарную стоимость (с учётом скидки)
